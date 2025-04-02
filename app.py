@@ -7,7 +7,7 @@
 # print("Path to dataset files:", path)
 
 # %%
-
+import gower
 import pandas as pd
 df  = pd.read_csv('/Users/baonguyen/.cache/kagglehub/datasets/maso0dahmed/football-players-data/versions/1/fifa_players.csv')
 
@@ -92,7 +92,7 @@ clean_df = df.drop(['full_name','name','scaled_age','scaled_height_cm','scaled_w
 import numpy as np
 import gower
 # Calculate the pairwise distances (using Euclidean as an example)
-dist_matrix = pairwise_distances(clean_df, metric='euclidean')
+dist_matrix = gower.gower_matrix(clean_df)
 # dist_matrix_gower = gower.gower_matrix(clean_df)
 def get_top_n_nearest(dist_matrix, index, n=10):
     """

@@ -62,3 +62,7 @@ The app uses functions to compute pairwise distances and then returns the neares
 
 Contributing
 Contributions are welcome! If you find issues or have suggestions for improvement, please open an issue or submit a pull request.
+![image](https://github.com/user-attachments/assets/2cfcb9b8-91a6-43d6-8bcc-98cf10c17f00)
+![image](https://github.com/user-attachments/assets/497fd2a5-abcf-42dc-b1b9-573c9532e386)
+
+
